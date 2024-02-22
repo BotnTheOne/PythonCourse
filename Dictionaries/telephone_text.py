@@ -15,5 +15,13 @@ my_dict = {
 }
 
 string = input().upper().replace('"', '')
+new_lst = []
+
+for i in string:
+    new_lst.append(my_dict[i])
+
+res = ''.join(new_lst)
+
+print(res)
 
 
